@@ -57,6 +57,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
                 'Trabalho',
                 'Estudo',
                 'Pessoal',
+                'Esporte',
               ].map((c) => DropdownMenuItem(value: c, child: Text(c))).toList(),
               onChanged: (val) => setState(() => _selectedCategory = val!),
             ),
